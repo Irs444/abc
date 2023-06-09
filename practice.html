@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .customer{
+            border-collapse: collapse;
+            width: 100%;
+            /* background-color: aquamarine; */
+            padding: 10px;
+            
+            
+            
+         
+        }
+        .customer th{
+            text-align: start;  
+            padding: 10px;
+            background-color: aquamarine;
+            color: black;
+            
+             
+        }
+        .customer td{
+           border: 1px solid #ddd;  
+         text-align: start;
+            padding: 10px;
+            /* background-color: aquamarine; */
+            color: black;
+        }
+        .form{
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 30%;
+        }
+        .input{
+            
+            /* padding: 10px; */
+            margin-inline-start: 65px;
+
+            
+        }
+        .button{
+            margin: 20px;
+           margin-left: 180px;
+            padding: 10px;
+            background-color: green;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Poetry Workshop</h1>
+        <p  >We Will conducting a number of poetry workshop and symposiums through the year. </p>
+        <p >Please note that the following eventsare free to members.</p>
+        
+            <ul>
+              <li>A  Poetic Perspective</li>  
+              <li>walt Whitema at war</li>  
+              <li>Found Poem and Outsider Poetry</li>  
+            </ul>
+            <table class="customer">
+                <tr>
+                    <th>   </th>
+                    <th>New York</th>
+                    <th>Chicago</th>
+                    <th>San Francisco </th>
+                </tr>
+                <tr>
+                    <td>A Poetic Perspective</td>
+                    <td>Sat, 4Feb 2012<br>11am - 2pm</td>
+                    <td>Sat, 3Mar 2012<br>11am - 2pm</td>
+                    <td>Sat, 17Mar 2012<br>11am - 2pm</td>
+                    
+                </tr>
+                <tr>
+                    <td>walt Whiteman at war</td>
+                    <td>Sat, 7Apr 2012<br>11am - 1pm</td>
+                    <td>Sat, 5May 2012<br>11am - 1pm</td>
+                    <td>Sat, 19May 2012<br>11am - 1pm</td>
+                </tr>
+                <tr>
+                    <td>Found Poems and Outsider Poetry</td>
+                    <td>Sat, 19Jan 2012<br>11am - 2pm</td>
+                    <td>Sat, 7Jul 2012<br>11am - 2pm</td>
+                    <td>Sat, 21Jul 2012<br>11am - 2pm</td>
+                </tr>
+                <tr>
+                    <td>Natural Death: An Exploration</td>
+                    <td>Sat, 4Aug 2012<br>11am - 4pm</td>
+                    <td>Sat, 8Sep 2012<br>11am - 4pm</td>
+                    <td>Sat, 15Sep 2012<br>11am - 4pm</td>
+                </tr>
+            </table>
+           
+                
+            <form action="">
+                <fieldset class="form">
+                    <legend>Register Your Interest</legend>
+                <label>Your name:  </label>
+                 <input type="text" class="input" placeholder="Name"><br><br>
+                 <label for="">Your Email:</label>
+                 <input type="text" class="input" placeholder="Email"><br><br>
+                 <label for="">Your closest center:</label>
+                 <select name="" class="input">
+                    <option value="">Delhi</option>
+                    <option value="">Lucknow</option>
+                    <option value="">Dehradun</option>
+                 </select><br><br>
+                 <label for="">Are you a member?</label>
+                 <input type="radio"  class="input">Yes
+                 <input type="radio"  class="input">No
+                
+                </fieldset>          
+      
+</form>
+
+
+
+<button class="button">Register</button>
+</body>
+</html>
